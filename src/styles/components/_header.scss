@@ -1,0 +1,87 @@
+.header__container {
+    //margin: 0 auto;
+    margin: 2rem 4rem 0 4rem;
+    //padding: 0 1rem;
+    max-width: 100rem;
+    font-family: 'Avenir';
+    //border: 1px black solid;
+
+    @media (min-width: 70rem) {
+        margin: 2rem auto;
+        //max-width: 100rem;
+    }
+
+    @media (max-width: 700px) {
+        margin: 2rem 2rem;
+    }
+}
+
+.header__content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    //padding: $s-size 0 0 0;
+    //border: 1px black solid;
+}
+
+.logo__container {
+    width: 40%;
+    //font-size: 24px;
+    text-align: right;
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.nav__container {
+    width: 60%;
+    //padding: 1rem;
+
+    //@media (max-width: 515px) {
+        //width: 80%;
+    //}
+}
+
+.nav__container2 {
+    max-width: 80rem;
+    margin-right: 60%;
+    //margin-right: 20%;
+    //padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+
+    @media (max-width: 875px) {
+        margin-right: 50%;
+    }
+
+    @media (max-width: 700px) {
+        margin-right: 35%;
+    }
+
+    @media (max-width: 530px) {
+        margin-right: 20%;
+    }
+
+    @media (max-width: 450px) {
+        margin-right: 10%;
+    }
+}
+
+.nav__item {
+    //margin-right: 20px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: gray;
+
+    &:hover {
+        color: black;
+    }
+    //color: gray;
+}

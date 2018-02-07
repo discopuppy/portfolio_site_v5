@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    //border: 1px black solid;
+    margin: 2rem 4rem;
+    @media (min-width: 70rem) {
+        margin: 2rem auto;
+        max-width: 100rem;
+    }
+    @media (max-width: 700px) {
+        margin: 2rem 2rem;
+    }
+}
+
+.aboutPage__container {
+    
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+    width: 50%;
+    h1 {
+        font-weight: normal;
+        color: black;
+        margin-top: 0;
+    }
+
+    p {
+        color: black;
+    }
+    @media (max-width: 700px) {
+        width: 100%;
+    }
+    //border: 1px black solid;
+    
+}
+
+.profilePic {
+    border-radius: 50%;
+}
+
+.about__title {
+    margin-bottom: 0;
+}
+.about__subtitle {
+    margin-top: 1rem;
+}
+
+.education__subtitle {
+    margin-top: 6rem;
+    margin-bottom: 0;
+}
+
+.school {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.major {
+    margin-top: .25rem;
+    margin-bottom: 0;
+}
+
+.bachelor {
+    margin-top: .25rem;
+    font-style: italic;
+    font-size: 85%;
+    //margin-bottom: 10rem;
+}
