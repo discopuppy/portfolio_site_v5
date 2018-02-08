@@ -82,20 +82,20 @@ button:disabled {
         font-weight: normal;
     }
 
-    a {
-        text-decoration: none;
-        color: black;
-
-        &:hover {
-            text-decoration: underline;
-        }
-    }
-
     @media (max-width: 700px) {
         margin: 6rem 2rem;
     }
 
     @media (min-width: 70rem) {
         margin: 6rem auto;
+    }
+}
+
+.chill {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+        text-decoration: underline;
     }
 }

@@ -25,6 +25,8 @@ const AboutPage = () => (
                     <p className="school">University of Louisiana at Lafayette</p>
                     <p className="major">Mass Communications</p>
                     <p className="bachelor">Bachelor of Arts</p>
+
+                    <a href="/images/resume2017.rtf" download>Download Resume</a>
                     
                 </div>
         </div>
