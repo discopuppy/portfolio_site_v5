@@ -26,7 +26,7 @@ const AboutPage = () => (
                     <p className="major">Mass Communications</p>
                     <p className="bachelor">Bachelor of Arts</p>
 
-                    <a href="/images/resume2017.rtf" download>Download Resume</a>
+                    <a href="/images/resume2018.pdf" download>Download Resume</a>
                     
                 </div>
         </div>

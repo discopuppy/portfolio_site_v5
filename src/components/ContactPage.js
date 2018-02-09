@@ -19,7 +19,7 @@ const ContactPage = () => (
                 </span>
             </p>
             <p style={{ fontSize: '20px' }}>337.326.8545</p>
-            <a href="/images/resume2017.rtf" download>Download Resume</a>
+            <a href="/images/resume2018.pdf" download>Download Resume</a>
         </div>
     </div>
 );
