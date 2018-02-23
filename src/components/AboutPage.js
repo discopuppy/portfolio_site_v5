@@ -18,7 +18,7 @@ const AboutPage = () => (
                     can reach me <Link to="/contact">here</Link>.</p>
 
                     <p>Skills include: HTML, CSS, Javascript, 
-                        PHP, MySQL, JQuery, React, and Sass.
+                        PHP, MySQL, JQuery, React, and Sass
                     </p>
 
                     <h2 className="education__subtitle">Education</h2>
