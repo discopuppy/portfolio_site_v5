@@ -7,7 +7,7 @@ const ContactPage = () => (
             <a href="mailto:zachary.moss@ymail.com" className="chill"><p style={{ fontSize: '20px' }}>zachary.moss@ymail.com</p></a>
             <p>
                 <span>
-                    <a href="https://github.com/discopuppy" className="chill" style={{ marginRight: '1rem', fontSize: '18px' }}>
+                    <a href="https://github.com/zacmoss" className="chill" style={{ marginRight: '1rem', fontSize: '18px' }}>
                     Github
                     </a>
                 </span>
