@@ -142,6 +142,8 @@ export default class PortfolioSlider extends React.Component {
                     <div className="portfolio__widgets">
                         <div className="center">
                             <a href="https://github.com/zacmoss"><img src="/images/github.png" height='30px' width='30px' /></a>
+                            <a href="https://github.com/zacmoss"><img src="/images/github.png" height='30px' width='30px' /></a>
+                            <a href="https://github.com/zacmoss"><img src="/images/github.png" height='30px' width='30px' /></a>
                             <a href="https://linkedin.com/in/zac-moss-40330351"><img src="/images/linkedin.png" height='30px' width='30px' /></a>
                         </div>
                     </div>
